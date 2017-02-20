@@ -1,6 +1,6 @@
 ---
 applications:
-- name: jna-service
+- name: cf-sample-jna
   buildpack: java_buildpack
   memory: 512M
   instances: 1
