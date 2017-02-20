@@ -9,7 +9,7 @@ public class Main {
         } catch (Exception ex) {
             port(9090);
         }
-        get("/hello", (request, response) -> "Hello World! cos=" + CLibrary.cos(23.5));
+        get("/hello", (request, response) -> "Hello World! add=" + CLibrary.fast_add(4, 3));
 
         post("/hello", (request, response) ->
             "Hello World: " + request.body()
