@@ -1,0 +1,9 @@
+---
+applications:
+- name: jna-service
+  buildpack: java_buildpack
+  memory: 512M
+  instances: 1
+  random-route: true
+  env:
+    LD_LIBRARY_PATH: ./lib
